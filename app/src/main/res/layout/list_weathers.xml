@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:id="@+id/weather_list_linearlayout"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/weather_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        >
+
+
+        <TextView
+            android:id="@+id/weather_day_textview"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:background="@drawable/textview_bottom_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <ImageView
+            android:id="@+id/weather_state_imageview"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            />
+         <TextView
+             android:id="@+id/max_temp_textview"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="150dp"
+             android:layout_marginTop="50dp"
+             android:text="Maksimalna temperatura: 20°C"
+             android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/min_temp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:text="Minimalna temperatura: 10°C"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="120dp"
+            android:text="Vjetar:"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:id="@+id/wind_direction_imageview"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="105dp"
+            android:background="#6fa1f2"/>
+
+        <TextView
+            android:id="@+id/wind_speed_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="130dp"
+            android:text="15 km/h"
+            android:textColor="#000"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="api_base_url">https://www.metaweather.com/api/location/</string>
+</resources>

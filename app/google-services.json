@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "547804998046",
+    "firebase_url": "https://wheather-app-fd1e2.firebaseio.com",
+    "project_id": "wheather-app-fd1e2",
+    "storage_bucket": "wheather-app-fd1e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547804998046:android:2d95826a9ffee374",
+        "android_client_info": {
+          "package_name": "hr.mateo.mircic.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547804998046-q3ujuk4ohghaodu7srujnde80d57ml26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hr.mateo.mircic.weather",
+            "certificate_hash": "aa13752f7071a800f2a913f4bf20b79b88d8e2c9"
+          }
+        },
+        {
+          "client_id": "547804998046-knj97lc082dupcaks0dttlch8sq46dh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChCtOTXr3QpQSGIFsmbGX9S4xWmXY6PSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547804998046-knj97lc082dupcaks0dttlch8sq46dh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

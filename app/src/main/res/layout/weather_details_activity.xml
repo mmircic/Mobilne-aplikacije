@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/location_name_textView"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@drawable/textview_bottom_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/weather_image_imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/weather_state_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/max_tem_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/min_tem_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:id="@+id/wind_spd_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+        <ImageView
+            android:id="@+id/wind_dir_imageview"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="5dp"
+            android:background="#6fa1f2"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/humidity_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/visibility_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/air_presure_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"/>
+
+</RelativeLayout>
